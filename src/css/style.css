@@ -1,0 +1,42 @@
+:root {
+	--primary: #9080cf;
+	--accent: #FAF6F6;
+	--delete: #B55455;
+	--primary-text: #FAF6F6;
+
+    --background-color: #9AA472;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    max-width: 55rem;			  
+    margin: 0.5em auto;		      
+    border: 1px solid black;	
+    border-radius: 5px;			  
+    padding: 0.75rem;			  
+    background-color: var(--background-color);
+	/*background-image: url("stars.png");*/
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;				
+    background-color: #424F36;
+    padding: 0.75rem;	  
+}
+
+nav a {
+    color: #FAF6F6;		
+    text-decoration: none;		  
+}

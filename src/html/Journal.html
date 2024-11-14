@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/src/html/index.html">Main</a>
+        <a href="/src/html/Life.html">Life</a>
+        <a href="/src/html/Works.html">Works</a>
+    </nav>
+
+    <h1>Welcome to the Journal!</h1>
+
+    <form onsubmit="createEntry(event)">
+        <textarea id="entry-text" placeholder="Write your journal entry here..." required></textarea>
+        <button type="submit">Add Entry</button>
+    </form>
+    
+    <ul class="journal-list"></ul>
+
+    <script src="/src/js/script.js"></script>
+    
+</body>
+</html>
+
