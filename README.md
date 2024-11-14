@@ -1,8 +1,8 @@
-Welcome!
+# Welcome!
 
 This is my Restoration Project for Section 5 of REL C 225. This repository contains source code for a basic webpage about Joseph Smith's life and works constructed using HTML, CSS, and JavaScript. 
 
-Features:
+## Features:
 * 4 linked HTML pages
 * 1 CSS style sheet
 * 1 JavaScript File
